@@ -13,20 +13,19 @@ This project uses React to display a webpage to plan for budgeting expenses for 
 ### Dependencies
 - Tested on Windows 10
 - Used NPM to install packages required to run server. Download at: https://nodejs.org/en/download
-- Tested on VSCode
+- Tested on Node.js version v18.16.0
 
 ### Installation
 - Download Node.JS and NPM: https://nodejs.org/en/download
 - Download project from GitHub
-- Open project folder in VSCode
-- Open a new terminal (Terminal --> New Termainl)
+- Open a new terminal
 - Ensure you are in the project folder
 - Run the following command to install all the packages that are required for running the server (without start and end quotes):
   "npm install --s"
 
 ### Executing the Program
-- Open project folder in VSCode
-- Open a new terminal (Terminal --> New Termainl)
+- Open a new terminal
+- Ensure you are in the project folder
 - Start the server using the below command in the terminal (without start and end quotes):
   "npm start"
 - This will launch the website. You can do the following:
