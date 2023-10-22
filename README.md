@@ -3,9 +3,10 @@
 ## Description
 
 This project uses React to display a webpage to plan for budgeting expenses for various departments. 
-- Can change currency using selector (will update in all areas of webpage) where it is displayed. 
-- Can select an item, and add/reduce the number of items. This will update the webpage in the 'Quantity', 'Items Price' for the item and update the 'Cart Value'.
-- Can remove all items from the Cart. 
+- Can change currency using selector (will update in all areas of webpage) where it is displayed.
+- Can update the budget (hardcoded to 20,000 upper limit). Budget is used to set upper limits to how much each item can be incremented, alerts will pop-up indicating user when things go passed limit.
+- The 'Remaining' and 'Spent so far' fields dynamically updated as items are added/removed and as budget is adjusted.
+- Can increase or decrease department allocations or do it in lump sum. 
 
 ## Getting Started
 
@@ -29,11 +30,11 @@ This project uses React to display a webpage to plan for budgeting expenses for 
 - Start the server using the below command in the terminal (without start and end quotes):
   "npm start"
 - This will launch the website. You can do the following:
-     - Change the currency in the 'Location' selector. This will update the currency symbol across the webpage.
-     - In the 'Add Items' section you can select 'Items', then determine to add/reduce in the 'Quantity' selector and input a number in the text box. Click 'Save'
-          - This will update the webpage in the 'Quantity', 'Items Price' for the item and update the 'Cart Value'.
-     - Click the 'X' item in each row to clear quantity of the item down to 0. Cart Value will be updated accordingly. 
-
+     - Change the currency in the 'Currency' selector. This will update the currency symbol across the webpage.
+     - You can increase/decrease each department by 10 using the '+' or '-' buttons or clear it completly using the 'X' button.
+          - This will dynamically change the 'Allocated Budget', 'Remaining' and 'Spent so far' fields.
+     - You can change a department via lump sum in the 'Change allocation' section. Choose the department, choose to add/remove, and input a number and hit 'Save'.
+          - This will dynamically change the 'Allocated Budget', 'Remaining' and 'Spent so far' fields.
 
 # Getting Started with Create React App
 
