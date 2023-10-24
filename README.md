@@ -6,7 +6,9 @@ This project uses React to display a webpage to plan for budgeting expenses for 
 - Can change currency using selector (will update in all areas of webpage) where it is displayed.
 - Can update the budget (hardcoded to 20,000 upper limit). Budget is used to set upper limits to how much each item can be incremented, alerts will pop-up indicating user when things go passed limit.
 - The 'Remaining' and 'Spent so far' fields dynamically updated as items are added/removed and as budget is adjusted.
-- Can increase or decrease department allocations or do it in lump sum. 
+- Can increase or decrease department allocations or do it in lump sum.
+
+![image](https://github.com/MaayonThayaparan/BudgetAllocationApp-React/assets/43158629/1a54ba95-f8f4-40ac-98c4-869dd242ee28)
 
 ## Getting Started
 
